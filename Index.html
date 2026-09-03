@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crystal Palace FC — The Eagles of South London</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3996P9ZTB8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3996P9ZTB8');
+</script>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__brand">
+      <svg class="nav__crest" viewBox="0 0 60 60" aria-hidden="true">
+        <circle cx="30" cy="30" r="28" fill="none" stroke="currentColor" stroke-width="2"/>
+        <path d="M30 14 L36 26 L48 28 L39 37 L41 49 L30 43 L19 49 L21 37 L12 28 L24 26 Z" fill="currentColor"/>
+      </svg>
+      <span>CRYSTAL PALACE <em>F.C.</em></span>
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="#identitas">Identitas</a>
+      <a href="#sejarah">Sejarah</a>
+      <a href="#stadion">Selhurst Park</a>
+      <a href="#suporter">Suporter</a>
+      <a href="#trofi">Trofi</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero__stripes" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <div class="hero__content">
+    <p class="hero__eyebrow"><span class="dot"></span> SOUTH LONDON &nbsp;·&nbsp; SE25 &nbsp;·&nbsp; EST. 1905</p>
+    <h1 class="hero__title">
+      <span class="line">SELALU</span>
+      <span class="line hero__title--accent">TERBANG</span>
+      <span class="line">TINGGI</span>
+    </h1>
+    <p class="hero__sub">Crystal Palace Football Club — dikenal sebagai <strong>The Eagles</strong>, kebanggaan South London yang bermarkas di Selhurst Park sejak lebih dari satu abad silam.</p>
+    <div class="hero__cta">
+      <a href="#sejarah" class="btn btn--primary">Jelajahi Sejarah <span>→</span></a>
+      <a href="#trofi" class="btn btn--ghost">Lihat Trofi</a>
+    </div>
+  </div>
+
+  <div class="hero__eagle" aria-hidden="true">
+    <svg viewBox="0 0 400 400" class="eagle-svg" id="heroEagle">
+      <defs>
+        <linearGradient id="wingGrad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#C4122E"/>
+          <stop offset="100%" stop-color="#1B458F"/>
+        </linearGradient>
+      </defs>
+      <g id="wingLeft" class="wing wing--left">
+        <path d="M200 190 C120 160 60 130 20 60 C70 100 130 120 195 175 Z" fill="url(#wingGrad)" opacity="0.92"/>
+        <path d="M200 210 C110 200 40 190 10 150 C60 175 130 175 198 205 Z" fill="url(#wingGrad)" opacity="0.6"/>
+      </g>
+      <g id="wingRight" class="wing wing--right">
+        <path d="M200 190 C280 160 340 130 380 60 C330 100 270 120 205 175 Z" fill="url(#wingGrad)" opacity="0.92"/>
+        <path d="M200 210 C290 200 360 190 390 150 C340 175 270 175 202 205 Z" fill="url(#wingGrad)" opacity="0.6"/>
+      </g>
+      <ellipse cx="200" cy="205" rx="34" ry="52" fill="#0B1220"/>
+      <circle cx="200" cy="150" r="30" fill="#0B1220"/>
+      <path d="M200 140 L222 158 L200 168 L178 158 Z" fill="#D4AF37"/>
+      <circle cx="190" cy="145" r="3.5" fill="#F3EFE6"/>
+      <circle cx="210" cy="145" r="3.5" fill="#F3EFE6"/>
+    </svg>
+  </div>
+
+  <a href="#identitas" class="hero__scroll" aria-label="Gulir ke bawah">
+    <span></span>
+  </a>
+</section>
+
+<div class="ticker">
+  <div class="ticker__track" id="tickerTrack">
+    <!-- duplicated by JS for seamless loop -->
+    <span>EST. 1905</span><span>•</span>
+    <span>THE EAGLES</span><span>•</span>
+    <span>SELHURST PARK</span><span>•</span>
+    <span>GLAD ALL OVER</span><span   an>
+    <span>HOLMESDALE FANATICS</span><span>•</span>
+    <span>PREMIER LEAGUE</span><span>•</span>
+    <span>JUARA PIALA FA 2025</span><span>•</span>
+  </div>
+</div>
+
+<section class="section identity" id="identitas">
+  <div class="section__inner identity__grid">
+    <div class="identity__intro">
+      <p class="eyebrow">01 — Identitas Klub</p>
+      <h2 class="h2">Merah &amp; biru,<br>terbang sejak 1905.</h2>
+      <p class="lede">Crystal Palace lahir dari kawasan Crystal Palace Park di South London — rumah bagi struktur kaca raksasa peninggalan Pameran Besar 1851. Dari sanalah nama klub ini diambil, dan sejak itu warna merah-biru serta lambang elang menjadi identitas yang tak tergantikan.</p>
+    </div>
+
+    <div class="identity__cards">
+      <div class="fact-card">
+        <span class="fact-card__num" data-count="1905">0</span>
+        <span class="fact-card__label">Tahun berdiri</span>
+      </div>
+      <div class="fact-card">
+        <span class="fact-card__num" data-count="25486">0</span>
+        <span class="fact-card__label">Kapasitas Selhurst Park</span>
+      </div>
+      <div class="fact-card">
+        <span class="fact-card__num" data-count="120">0</span>
+        <span class="fact-card__label">Musim sejak berdiri (sampai gelar 2025)</span>
+      </div>
+      <div class="fact-card">
+        <span class="fact-card__num" data-count="1">0</span>
+        <span class="fact-card__label">Trofi mayor pertama (Piala FA 2025)</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="identity__strip">
+    <div class="id-item">
+      <h3>Julukan</h3>
+      <p>The Eagles — sebelumnya dikenal sebagai The Glaziers karena asosiasi dengan struktur kaca Crystal Palace.</p>
+    </div>
+    <div class="id-item">
+      <h3>Warna Kandang</h3>
+      <p>Kaos garis vertikal merah &amp; biru, celana biru gelap — identitas yang dipakai konsisten sejak awal 1970-an.</p>
+    </div>
+    <div class="id-item">
+      <h3>Rival</h3>
+      <p>M23 Derby melawan Brighton &amp; Hove Albion — salah satu derby paling sengit di sepak bola Inggris selatan.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section timeline" id="sejarah">
+  <div class="section__inner">
+    <p class="eyebrow">02 — Perjalanan</p>
+    <h2 class="h2">Satu abad lebih,<br>menuju Wembley.</h2>
+    <p class="lede">Bukan perjalanan yang instan — penuh dengan final yang menyakitkan sebelum akhirnya berbuah manis.</p>
+
+    <div class="tl">
+      <div class="tl__line" aria-hidden="true"></div>
+
+      <div class="tl__item">
+        <div class="tl__year">1905</div>
+        <div class="tl__body">
+          <h3>Klub Didirikan</h3>
+          <p>Crystal Palace F.C. resmi dibentuk di kawasan Crystal Palace Park, London selatan, dan langsung diterima ke Southern League.</p>
+        </div>
+      </div>
+
+      <div class="tl__item">
+        <div class="tl__year">1990</div>
+        <div class="tl__body">
+          <h3>Final Piala FA Pertama</h3>
+          <p>Palace mencapai final Piala FA untuk pertama kalinya, namun harus mengakui keunggulan Manchester United setelah replay.</p>
+        </div>
+      </div>
+
+      <div class="tl__item">
+        <div class="tl__year">2013</div>
+        <div class="tl__body">
+          <h3>Promosi via Play-off</h3>
+          <p>Gol tunggal Kevin Phillips di final play-off Championship membawa Palace kembali ke Premier League — awal era modern klub.</p>
+        </div>
+      </div>
+
+      <div class="tl__item">
+        <div class="tl__year">2016</div>
+        <div class="tl__body">
+          <h3>Final Kedua, Luka Kedua</h3>
+          <p>Untuk kedua kalinya Palace melangkah ke final Piala FA, kembali kalah — kali ini dari Manchester United di perpanjangan waktu.</p>
+        </div>
+      </div>
+
+      <div class="tl__item tl__item--highlight">
+        <div class="tl__year">2025</div>
+        <div class="tl__body">
+          <h3>Akhirnya, Trofi Mayor Pertama</h3>
+          <p>17 Mei 2025 di Wembley: gol Eberechi Eze dan penyelamatan penalti Dean Henderson mengantar Palace menundukkan Manchester City 1–0, memastikan Piala FA pertama dalam sejarah klub setelah dua kali gagal di final sebelumnya.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STADION ============ -->
+<section class="section stadium" id="stadion">
+  <div class="section__inner stadium__grid">
+    <div class="stadium__art" aria-hidden="true">
+      <svg viewBox="0 0 600 420" class="stadium-svg">
+        <defs>
+          <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#0B1220"/>
+            <stop offset="100%" stop-color="#1B458F"/>
+          </linearGradient>
+          <linearGradient id="pitchGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#1c7a3e"/>
+            <stop offset="100%" stop-color="#146030"/>
+          </linearGradient>
+        </defs>
+        <rect width="600" height="420" fill="url(#skyGrad)"/>
+        <!-- floodlights -->
+        <g class="floodlight" stroke="#F3EFE6" stroke-width="3">
+          <line x1="60" y1="60" x2="60" y2="230"/>
+          <rect x="30" y="40" width="60" height="24" fill="#F3EFE6" opacity="0.9"/>
+        </g>
+        <g class="floodlight" stroke="#F3EFE6" stroke-width="3">
+          <line x1="540" y1="60" x2="540" y2="230"/>
+          <rect x="510" y="40" width="60" height="24" fill="#F3EFE6" opacity="0.9"/>
+        </g>
+        <!-- stands -->
+        <path d="M0 240 L600 240 L600 300 Q300 260 0 300 Z" fill="#0d1b2a"/>
+        <path d="M0 300 L600 300 L600 420 L0 420 Z" fill="url(#pitchGrad)"/>
+        <!-- pitch lines -->
+        <ellipse cx="300" cy="390" rx="90" ry="18" fill="none" stroke="#F3EFE6" stroke-width="2" opacity="0.7"/>
+        <line x1="300" y1="360" x2="300" y2="420" stroke="#F3EFE6" stroke-width="2" opacity="0.7"/>
+        <!-- crowd dots -->
+        <g fill="#D4AF37" opacity="0.85">
+          <circle cx="40" cy="255" r="2.4"/><circle cx="60" cy="250" r="2.4"/><circle cx="80" cy="258" r="2.4"/>
+          <circle cx="100" cy="252" r="2.4"/><circle cx="130" cy="256" r="2.4"/><circle cx="160" cy="250" r="2.4"/>
+          <circle cx="190" cy="257" r="2.4"/><circle cx="220" cy="253" r="2.4"/><circle cx="250" cy="258" r="2.4"/>
+          <circle cx="350" cy="253" r="2.4"/><circle cx="380" cy="257" r="2.4"/><circle cx="410" cy="252" r="2.4"/>
+          <circle cx="440" cy="256" r="2.4"/><circle cx="470" cy="250" r="2.4"/><circle cx="500" cy="255" r="2.4"/>
+          <circle cx="530" cy="252" r="2.4"/><circle cx="560" cy="257" r="2.4"/>
+        </g>
+        <g fill="#C4122E" opacity="0.85">
+          <circle cx="50" cy="248" r="2.4"/><circle cx="90" cy="245" r="2.4"/><circle cx="140" cy="247" r="2.4"/>
+          <circle cx="200" cy="246" r="2.4"/><circle cx="360" cy="246" r="2.4"/><circle cx="420" cy="245" r="2.4"/>
+          <circle cx="480" cy="247" r="2.4"/><circle cx="540" cy="246" r="2.4"/>
+        </g>
+      </svg>
+    </div>
+    <div class="stadium__text">
+      <p class="eyebrow">03 — Rumah</p>
+      <h2 class="h2">Selhurst Park.</h2>
+      <p class="lede">Sejak 1924, Selhurst Park di Selhurst / South Norwood adalah rumah bagi Crystal Palace — salah satu markas paling ikonik di London selatan, dikenal dengan atmosfer terasnya yang menggelegar.</p>
+      <ul class="stadium__list">
+        <li><strong>Lokasi</strong><span>Selhurst, London selatan</span></li>
+        <li><strong>Dipakai sejak</strong><span>1924</span></li>
+        <li><strong>Kapasitas</strong><span>25.486 kursi</span></li>
+        <li><strong>Tribun ikonik</strong><span>Holmesdale Road End</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SUPORTER ============ -->
+<section class="section fans" id="suporter">
+  <div class="section__inner">
+    <p class="eyebrow eyebrow--light">04 — Jiwa Klub</p>
+    <h2 class="h2 h2--light">Suara dari Holmesdale.</h2>
+    <div class="fans__grid">
+      <div class="fans__card">
+        <h3>Holmesdale Fanatics</h3>
+        <p>Kelompok ultras yang berdiri di tribun Holmesdale Road End, dikenal dengan koreografi, flare, dan dukungan tanpa henti sepanjang 90 menit.</p>
+      </div>
+      <div class="fans__card">
+        <h3>"Glad All Over"</h3>
+        <p>Lagu kebangsaan yang bergema di Selhurst Park setiap hari pertandingan, dinyanyikan penuh semangat oleh puluhan ribu suporter.</p>
+      </div>
+      <div class="fans__card">
+        <h3>South London Pride</h3>
+        <p>Lebih dari sekadar klub sepak bola — Palace adalah bagian dari identitas komunitas South London selama lebih dari seabad.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TROFI ============ -->
+<section class="section trophies" id="trofi">
+  <div class="section__inner">
+    <p class="eyebrow">05 — Lemari Trofi</p>
+    <h2 class="h2">Penantian yang terbayar.</h2>
+
+    <div class="trophy-case">
+      <div class="trophy" data-tab="facup">
+        <div class="trophy__cup" aria-hidden="true">
+          <svg viewBox="0 0 100 120"><path d="M20 10 H80 V25 C80 45 65 55 50 55 C35 55 20 45 20 25 Z M45 55 H55 V80 H45 Z M30 80 H70 V92 H30 Z" fill="#D4AF37"/></svg>
+        </div>
+        <h3>Piala FA</h3>
+        <p class="trophy__year">2024–25</p>
+        <p class="trophy__desc">Trofi mayor pertama dalam sejarah klub — dimenangkan dengan kemenangan 1–0 atas Manchester City di Wembley.</p>
+      </div>
+      <div class="trophy" data-tab="playoff">
+        <div class="trophy__cup" aria-hidden="true">
+          <svg viewBox="0 0 100 120"><path d="M20 10 H80 V25 C80 45 65 55 50 55 C35 55 20 45 20 25 Z M45 55 H55 V80 H45 Z M30 80 H70 V92 H30 Z" fill="#C4122E"/></svg>
+        </div>
+        <h3>Play-off Championship</h3>
+        <p class="trophy__year">2013</p>
+        <p class="trophy__desc">Kemenangan atas Watford membawa Palace promosi ke Premier League, membuka babak baru era modern klub.</p>
+      </div>
+      <div class="trophy" data-tab="zenith">
+        <div class="trophy__cup" aria-hidden="true">
+          <svg viewBox="0 0 100 120"><path d="M20 10 H80 V25 C80 45 65 55 50 55 C35 55 20 45 20 25 Z M45 55 H55 V80 H45 Z M30 80 H70 V92 H30 Z" fill="#1B458F"/></svg>
+        </div>
+        <h3>Full Members' Cup</h3>
+        <p class="trophy__year">1991</p>
+        <p class="trophy__desc">Gelar Zenith Data Systems Cup, dimenangkan setahun setelah final Piala FA pertama klub.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
